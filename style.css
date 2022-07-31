@@ -92,10 +92,6 @@ header {
     align-items: center;
 }
 
-.langage, .connect, h1 {
-    visibility: hidden;
-}
-
 .connection p, h1{
     display: none;
 }

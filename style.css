@@ -142,7 +142,7 @@ header {
 
 .social-network p {
     visibility: hidden;
-    width: 0;
+    display: none;
 }
 
 .container2 {
@@ -155,7 +155,10 @@ header {
 .social-network {
     display: flex;
     justify-content: center;
+    padding-top: 1em;
 }
+
+
 
 
 

@@ -97,7 +97,7 @@ header {
 }
 
 .connection p, h1{
-    width: 0;
+    display: none;
 }
 
 

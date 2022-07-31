@@ -1,0 +1,165 @@
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;700&display=swap');
+
+
+/* VARIABLES */
+
+:root {
+    --color-heading: #f7a821;
+    --color-header: #fff;
+    --color-body: #2d3038;
+    --color-base: #3a3d45;
+    --color-sidebar: #24262c;
+    --color-footer: #24262c ;
+    --color-icon-header : #697978;
+    --color-icon-sidebar : #818d96;
+    --color-icon-footer : #9798a0;
+    --font-base: "Bai Jamjuree";
+}
+
+/* GENERAL */
+
+
+body {
+    background-color: var(--color-body);
+    font-family: var(--font-base);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: var(--color-header);
+}
+
+.sidebar {
+    background-color: var(--color-sidebar);
+}
+
+.container {
+    background-color: var(--color-base);
+}
+
+footer {
+    background-color: var(--color-footer);
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+/* HEADER */
+
+h1, .bi-camera2 {
+    color: var(--color-header);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.bi-camera2 {
+    font-size: 3em;
+}
+
+.connection a {
+    color: var(--color-icon-header);
+    padding-right: 1.5em;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.heading {
+    color: var(--color-icon-header);
+    background-color: var(--color-heading);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.heading, .connection {
+    display: flex;
+    align-items: center;
+}
+
+.langage, .connect, h1 {
+    visibility: hidden;
+}
+
+.connection p, h1{
+    width: 0;
+}
+
+
+/* SIDEBAR */
+
+.sidebar, .user, .setting {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar a {
+    color: var(--color-icon-sidebar);
+    padding-left: 1.5em;
+}
+
+.sidebar p {
+    visibility: hidden;
+    width: 0;
+}
+
+
+/* SECTION IMAGES */
+
+.container {
+    margin: 1em;
+    padding: 1em;
+}
+
+.container p {
+    color: var(--color-header);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/* FOOTER */
+
+.social-network a, footer p{
+    color: var(--color-icon-footer);
+    text-align: center;
+   }
+
+.social-network p {
+    visibility: hidden;
+    width: 0;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+

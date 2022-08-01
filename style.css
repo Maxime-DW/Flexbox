@@ -171,7 +171,6 @@ header {
 
     main {
         display: flex;
-        align-items: flex-start;
     }
 
     .sidebar p {
@@ -183,7 +182,10 @@ header {
         flex-direction: column;
         width: 25em;
         min-width: 10em;
-        height: 250vh;
+    }
+
+    .setting, .user {
+        width: 100%;
     }
 
     

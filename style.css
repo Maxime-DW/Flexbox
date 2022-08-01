@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 100vh;
 }
 
 header {
@@ -51,6 +52,10 @@ a {
 
 img {
     width: 100%;
+}
+
+main {
+    flex-grow: 1;
 }
 
 
@@ -139,7 +144,6 @@ header {
 }
 
 .social-network p {
-    visibility: hidden;
     display: none;
 }
 
@@ -180,7 +184,6 @@ header {
 
     .sidebar {
         flex-direction: column;
-        width: 25em;
         min-width: 10em;
     }
 
@@ -188,9 +191,6 @@ header {
         width: 100%;
     }
 
-    
-    
-    
     /* SECTION IMAGES */
     
     .images {
@@ -202,6 +202,30 @@ header {
     .container {
         width: 30em;
     }
+
+    /* FOOTER */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container2 p {
+        display: block;
+    }
+
+    .social-network {
+        padding: 0;
+    }
+
+    footer a {
+        margin-left: 1em;
+    }
+
+    footer>p {
+        margin-right: 1em;
+    }
+    
 
 }
 
